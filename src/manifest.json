@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Good Swipes",
+    "version": "1.0",
+
+    "description": "Implementation of touchpad and touchscreen gesture to go back and forward, with feedback, inspired by the same built in function on Google Chrome.",
+
+    "icons": {
+        "48": "icons/goodSwipe48.png",
+        "96": "icons/goodSwipe96.png"
+    },
+    
+    "permissions": [
+        "activeTab"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["goodSwipe.js"],
+            "css": ["goodSwipe.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        "icons/arrow_back.svg",
+        "icons/arrow_forward.svg"
+    ]
+}
