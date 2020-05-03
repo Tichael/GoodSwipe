@@ -1,2 +1,2 @@
 # GoodSwipe
-Implementation of touchpad and touchscreen gesture to go back and forward, with feedback, inspired by the same built in function on Google Chrome.
+This extension add touchscreen and touchpad (and mouse) gesture on horizontal scroll to go back and forward in navigation history. It also adds on screen feedback for the gesture, like you can see on Google Chrome (which greatly inspired this extension).
